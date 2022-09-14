@@ -363,3 +363,56 @@ body{
     font-weight: 800;
     font-size: 15px;
 }
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    margin-top: 60px;
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: darkgray;
+}
+#newsletter p span{
+    color: rgb(226, 165, 52);
+}
+#newsletter .signform {
+    display: flex;
+    width: 30%;
+  
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 80px;
+    border-radius: 4px;
+    height: 35px;
+    margin-left: 3px;
+    
+}
