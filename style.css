@@ -111,7 +111,7 @@ body{
     color: #088178;
 }
 #hero button{
-    background-image: url("button.png");
+    background-image: url("img/button.png");
     background-color: transparent;
     color: #ea4f5f;
     border: 0; 
@@ -259,7 +259,7 @@ body{
     justify-content: center;
     align-items:center;
     text-align: center;
-    background-image:url("banner1.jpg") ;
+    background-image:url("img/banner1.jpg") ;
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -295,7 +295,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
-    background-image:url("b17.jpg") ;
+    background-image:url("img/b17.jpg") ;
     min-width:580px ;
     height: 50vh;
     background-size: cover;
@@ -304,7 +304,7 @@ body{
 
 }
 #sm-banner .banner-box2{
-    background-image:url("b10.jpg") ;
+    background-image:url("img/b10.jpg") ;
 }
 #sm-banner h4{
     color: #fff;
@@ -337,7 +337,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
-    background-image:url("banner2.jpg") ;
+    background-image:url("img/banner2.jpg") ;
     min-width:30% ;
     height: 30vh;
     background-size: cover;
@@ -347,10 +347,10 @@ body{
 
 }
 #banner3 .banner-box2{
-    background-image:url("banner3.jpg") ;
+    background-image:url("img/banner3.jpg") ;
 }
 #banner3 .banner-box3{
-    background-image:url("banner4.jpg") ;
+    background-image:url("img/banner4.jpg") ;
 }
 
 #banner3 h1{
@@ -368,7 +368,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("b14.png");
+    background-image: url("img/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -418,4 +418,56 @@ body{
 }
 .icon{
     font-size: 12px;
+}
+.last{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.last .col{
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.last .logo{
+    margin-left: 30px;
+}
+.last h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.last p{
+    font-size: 13px;
+    margin: 0 0 80 0;
+}
+.last a{
+    font-size: 13px;
+   text-decoration: none;
+   color: #222;
+   margin-bottom: 10px;
+}
+.last .follow{
+    margin-top: 20px;
+}
+.last .follow i{
+    color: #7c948a;
+    padding-right: 4px;
+    cursor: pointer;
+}
+.last .install .down img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+.last .install img{
+    margin: 10px 0 15px 0;
+}
+.last .follow i:hover,
+.last a:hover {
+    color: #088178;
+}
+.last .copyright{
+    width: 100%;
+    text-align: center;
 }
