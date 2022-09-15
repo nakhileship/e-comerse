@@ -90,7 +90,7 @@ body{
 }
 
 #hero{
-    background-image:url("hero.jpg") ;
+    background-image:url("img/hero.jpg") ;
     height: 90vh;
     width: 100%;
     background-size: cover;
