@@ -70,9 +70,9 @@
             </div>
         </div>
         <div class="single-pro-details">
-            <h6>Home / T-Shirt</h6>
-            <h4>Mens's Fashion T Shirt</h4>
-            <h2>$139.00</h2>
+            <h4>Home / T-Shirt</h4>
+            <h2>Mens's Fashion T Shirt</h2>
+            <h1>$139.00</h1>
             <select >
                 <option >Select Size</option>
                 <option >XL</option>
@@ -81,8 +81,8 @@
                 <option >Large</option>
             </select>
             <input type="number" value="1">
-            <button>Add to Cart</button>
-            <h4>Product Details</h4>
+            <button class="normal">Add to Cart</button>
+            <h1>Product Details</h1>
             <span>The Gaildan Ultra Cotton T-Shirt is made from a substential 6.0 oz. per sq
                 . yd . fabric constructed from 100% cotton, this classic fit preshrunk jersey 
                 knit provides unmatchede confort with each wear.Featuring a taped neck and 
@@ -90,6 +90,77 @@
                 ultimate head-turnig package
             </span>
         </div>
+    </section>
+    <section id="item" class="section-p1"> 
+        <h2 style="font-size: 40px; ">Featured Products</h2>
+        <p >Summer Collection New Mordern Design </p>
+        <div class="pro-container">
+        <div class="pro">
+            <img src="img/f1.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="bi bi-cart3 cart"></i> </a>
+        </div>
+        <div class="pro">
+            <img src="img/f2.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="bi bi-cart3 cart"></i> </a>
+        </div>
+        <div class="pro">
+            <img src="img/f3.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="bi bi-cart3 cart"></i> </a>
+        </div>
+        <div class="pro">
+            <img src="img/f4.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+                <div class="star">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#"><i class="bi bi-cart3 cart"></i> </a>
+        </div>
+       
+    </div>
     </section>
 
     <section id="newsletter" class="section-p1 ">
@@ -152,6 +223,24 @@
             <p>@ 2022, Tech etc - HTML CSS Ecommerce Template</p>
         </div>
     </footer>
+
+    <script>
+        var Mainimg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
